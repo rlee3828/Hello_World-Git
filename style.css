@@ -2,7 +2,50 @@ h1 {
 	color: blue;
 	text-align: center;
 	}
-
+h4	{
+	color: red;
+	text-align: center;
+	}
 p {
 	color: red;
+	}
+
+div {
+	background-color: teal;
+	width: 500px;
+	height: 400px;
+	margin: 50px;
+	padding: 50px;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	<!-font-weight: bold;->
+
+	border: 3px solid blue;
+	border: 5px dotted red;
+	}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
+	}
+th	{
+	background-color: lightGrey;
+	}
+th, td	{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center
+	}
+#top{
+	font-size: 36px;
+	}
+#middle{
+	font-size: 24px;
+	}
+#bottom{
+	font-size: 12px;
+	}
+.name{
+	font-weight: bold;
 	}
